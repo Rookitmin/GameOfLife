@@ -11,7 +11,7 @@ thing.prototype.draw = function () {
     rect(this.pos.x,this.pos.y,this.size,this.size);
   }
   else {
-    fill(250,250,250,5);
+    fill(250,250,250);
     rect(this.pos.x,this.pos.y,this.size,this.size);
   }
 };
@@ -52,7 +52,7 @@ var tW = 0;
 var tH = 0;
 function setup() {
   createCanvas(400, 400);
-  frameRate(25);
+  frameRate(60);
   tW = width/sS;
   tH = height/sS;
   for (var i = 0; i < tW; i ++) {
