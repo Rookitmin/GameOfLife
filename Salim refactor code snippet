@@ -1,0 +1,2 @@
+let welcome = new greetCard('Welcome to the game of life! Watch this simulation as you see the wonders of life and death unfold before your very eyes!');
+welcome.greeting();
